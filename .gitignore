@@ -1,0 +1,64 @@
+# MatriXDeck Project .gitignore
+
+# IDE & Environment
+.vscode/
+.idea/
+.pio/
+.pioenvs/
+.piolibdeps/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.sym
+*.dfu
+*.eep
+*.lss
+*.d
+
+# Arduino
+arduino-cli.yaml
+.arduino/
+settings.json
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+.config
+dependencies.lock
+
+# MicroPython
+.micropython/
+frozen/
+mpy-cross/
+
+# Hardware design files backups
+*.bak
+*-backups/
+*-cache/
+*-rescue.lib
+fp-info-cache
+*auto_saved*
+*-bak
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Private configuration
+secrets.h
+config.h
+wifi_credentials.h 
