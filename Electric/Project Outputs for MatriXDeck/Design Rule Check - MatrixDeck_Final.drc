@@ -1,0 +1,17 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Sang Hoang\OneDrive\Documents\Design PCB by Sang Hoang\MatriXDeck\MatrixDeck_Final.PcbDoc
+Date     : 27/05/2025
+Time     : 18:48:22
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-41_1(83.342mm,101.934mm) on Bottom Layer And Track (83.342mm,103.456mm)(83.801mm,103.915mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (156.448mm,102.834mm)(156.448mm,102.834mm) on Bottom Layer And Pad U3-41_1(156.694mm,101.934mm) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+
+Violations Detected : 2
+Waived Violations : 0
+Time Elapsed        : 00:00:01
